@@ -1,0 +1,47 @@
+
+
+
+
+
+<ul id="dropdown1" class="dropdown-content fullscreen">
+
+  <li>
+    <a class="blue-grey-text text-darken-2" (click)="changeLanguage('en')">{{ 'Navbar.Languages.English' | translate }} </a>
+
+  </li>
+    <li>
+      <a class="blue-grey-text text-darken-2"  (click)="changeLanguage('pt')">{{ 'Navbar.Languages.Portuguese'  | translate }}  </a>
+    </li>
+    <li>
+      <a class="blue-grey-text text-darken-2"  (click)="changeLanguage('es')">{{ 'Navbar.Languages.Espanish' | translate }} </a>
+
+    </li>
+ <li>
+   <a class="blue-grey-text text-darken-2"  (click)="changeLanguage('pol')">{{ 'Navbar.Languages.Poland' | translate }}</a>
+   <br>
+ </li>
+
+
+  <li class="divider"></li>
+</ul>
+  <ul class="side-nav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+  </ul>
+
+
+
+
+<nav class="animated bounceInDown blue-grey darken-3 z-depth-0">
+<div class="nav-wrapper ">
+  <a id="logo" class="waves-effect waves-light btn  blue darken-3 hide-on-small-only" [routerLink]="['']">KS</a>
+  <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only"><i class="material-icons"  >menu</i></a>
+  <ul class="right hide-on-med-and-down">
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-button pulse blue-grey-text text-lighten-4" data-activates="dropdown1">{{ 'Navbar.Language' | translate  }} <i class="material-icons right">arrow_drop_down</i></a></li>
+ </ul>
+  </div>
+</nav>
+<br>
+<br>
+

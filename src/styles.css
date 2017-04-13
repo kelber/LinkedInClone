@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body {
+  background-color: whitesmoke;
+}
+
+nav {
+  height: 52px;
+}
+/* background-color: #283e4a; */
+/* .nav-wrapper { */
+/*   height: 50px; */
+/* } */
+
+/* .logo2 { */
+/*   color: white; */
+/*   font-size: 2.5em; */
+/*   font-family: arial; */
+/*   font-weight: bold; */
+/* } */
+/*  */
+#logo {
+  width: 2%;
+  color: white;
+  font-size: 22px;
+  /* font-size: 1em; */
+  font-family: arial;
+  font-weight: bold;
+  margin-left: 5%;
+  /* separar logo do intro e home */
+  margin-top: -15px;
+  /* padding: -20px; */
+  /* box-sizing: content-box; */
+  /* text-align: -10px; */
+  border-radius: 5px;
+  box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+}
+
+
+.progress {
+  width: 50%;
+  height: 2.5px;
+  margin-left: 25%;
+  background-color: lightgrey;
+
+}
+.indeterminate {
+  /* background-color: #283e4a; */
+  background-color: black;
+}
+
+
+.fixed {
+  position: fixed;
+  /* z-index: 0; */
+}
+
+/* FOOTER FIXED */
+/* body { */
+/*   display: flex; */
+/*   min-height: 100vh; */
+/*   flex-direction: column; */
+/* } */
+/*  */
+/* main { */
+/*   flex: 1 0 auto; */
+/* } */
+/*  */

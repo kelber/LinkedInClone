@@ -1,0 +1,42 @@
+
+
+
+/* .leftCardFixed { */
+/*   position: fixed; */
+/*   /* z-index: auto; */
+/* } */
+/*  */
+
+
+
+#photo {
+  margin-bottom: -85px;
+  /* z-index: 3; */
+}
+.circle {
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+}
+
+/* name e profissional */
+.name {
+  font-size: 1.4em;
+font-weight: bold;
+}
+.prof {
+  font-size: 1em;
+}
+
+
+.leftCard {
+  background-color: lightblue;
+  width: 225px;
+  margin-left: 55px;
+  margin-bottom: 150%;
+
+}
+
+
+
+

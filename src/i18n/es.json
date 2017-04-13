@@ -1,0 +1,91 @@
+
+{
+  "Navbar": {
+    "navTitle": "Title nav",
+    "navSlogan": "Slogan HERE",
+    "navAbout": "La pagina",
+    "Language": "Idiomas",
+    "Languages": {
+      "Portuguese": "Portugués",
+      "English":    "English",
+      "Espanish":  "Español",
+      "Poland": "Polonia"
+
+    }
+  },
+  "message": "Benvenido a mi página clone Linkedin. La ideia es mostrar mi cartera, habilidades y más",
+  "leftCard": {
+    "learning": "Proceso de aprendizaje",
+    "angular": "Desarrollador Angular 2",
+    "wdevelopment": "Desarrollo Web",
+    "mba": "Diploma en Negocios",
+    "contact": "Contacto"
+  },
+  "webdevelopment": {
+    "learning": "Proceso de aprendizaje",
+    "wdevelopment": "Desarrollo Web",
+    "mba": "Diplomión académica",
+    "learntable": {
+       "knowledge": "Conocimiento",
+       "progress": "Progreso",
+       "btnProgress": "Progreso",
+       "btnNext": "Seguiente"
+    }
+    ,
+    "web": {
+      "angular": "Desarrollador Angular",
+      "since": "desde Mayo",
+      "ad": "Trabajando con angular desde mayo y utilizando firebase para backend",
+      "ad2": "Firebase es un servicio de baas, backend como un servicio",
+
+    "ror": "Trabajó con ror desde 2013 hasta 2014",
+    "compt": "Competencias en desarrollo"
+    }
+,
+    "pos": {
+      "posTitle": "Administración de empresas con grado con operador extranjero",
+      "school": "Fundación Getulio Vargas",
+      "course": "Administración empresarial  ( MBA )",
+      "course2pos": "Administración"
+    },
+    "adm": {
+      "school2": "Umesp - Universidade Metodista de São Paulo",
+      "course2": " Administración de empresas con grado con operador extranjero",
+      "school3": "Colegio Sao Jose - SBC"
+    }
+  },
+"rightCard": {
+      "contact": "Entre em Contato",
+      "contEmail": "Seu email",
+      "contMessage": "Sua mensage",
+      "contBtn": "Enviar",
+      "messageOk": "Gracias por su mensaje !"
+    },
+
+
+  "Home": {
+    "homeText": "Welcome Home",
+    "secondText": "Change the Language"
+  },
+  "About": {
+    "title": "About page"
+
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

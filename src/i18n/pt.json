@@ -1,0 +1,78 @@
+
+{
+  "Navbar": {
+    "navTitle": "Title nav",
+    "navSlogan": "Slogan HERE",
+    "navAbout": "About",
+    "Language": "Idiomas",
+    "Languages": {
+      "Portuguese": "Portugues",
+      "English":    "English",
+      "Espanish":  "Spanish",
+      "Poland": "Polones"
+
+    }
+  },
+  "message": "Bem vindo a minha pagina clone Linkedin, a ideia aqui e mostrar meu portfolio, conhecimentos  entre outras coisas",
+  "leftCard": {
+    "learning": "Em Aprendizagem",
+    "angular": "Desenvolvedor Angular 2",
+    "wdevelopment": "Desenvolvimento Web",
+    "mba": "Administracao",
+    "contact": "Contato"
+  },
+  "webdevelopment": {
+    "learning": "Em Aprendizagem",
+    "wdevelopment": "Desenvolvimento Web",
+    "mba": "Formacao Academica",
+     "learntable": {
+       "knowledge": "Conhecimento",
+       "progress": "Progresso",
+       "btnProgress": "Processo",
+       "btnNext": "Proximo"
+    }
+    ,
+    "web": {
+      "angular": "Desenvolvedor Angular 2 ",
+      "since": "Desde Maio",
+      "ad": "Trabalhando com Angular 2 desde Maio de 2016 e Firebase como backend.",
+      "ad2": "Firebase e um servico da Google - BaaS - Backend as a Service,  ou seja e um backend mais seguro",
+
+    "ror": "Trabalhei com ROR de 2013 a 2014",
+    "compt": "Competencias em Desenvolvimento"
+    }
+    ,
+    "pos": {
+      "posTitle": "Administração de Empresas com Ênfase em Comercio Exterior",
+      "school": "Fundacao Getulio Vargas",
+      "course": "Master Business Administration ( MBA )",
+      "course2pos": "Gestão Empresarial"
+    },
+    "adm": {
+      "school2": "Umesp - Universidade Metodista de São Paulo",
+      "course2": "Administração de Empresas com Ênfase em Comercio Exterior",
+      "school3": "Colegio Sao Jose - SBC"
+    }
+  },
+    "rightCard": {
+      "contact": "Entre em Contato",
+      "contEmail": "Seu email",
+      "contMessage": "Sua Mensagem",
+      "contBtn": "Enviar",
+      "messageOk": "Obrigado pela sua mensagem!"
+  },
+
+
+  "Home": {
+    "homeText": "Welcome Home",
+    "secondText": "Change the Language"
+  },
+  "About": {
+    "title": "Sobre a pagina"
+
+
+  }
+
+
+}
+

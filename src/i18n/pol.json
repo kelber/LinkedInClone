@@ -1,0 +1,77 @@
+
+{
+  "Navbar": {
+    "navTitle": "Title nav",
+    "navSlogan": "Slogan HERE",
+    "navAbout": "Na",
+    "Language": "Język",
+    "Languages": {
+      "Portuguese": "Portugalski",
+      "English":    "Angielski",
+      "Espanish":  "Hiszpański",
+      "Poland": "Polska"
+    }
+  },
+  "message": "Witam na mojej stronie clone Linkedin, pomysł jest pokazać moje portfolio, moje umiejętności i wiele innych",
+  "leftCard": {
+    "learning": "Proces uczenia",
+    "angular": "Twórca kątowy  2",
+    "wdevelopment": "Tworzenie stron internetowych",
+    "mba": "Stopień administracji",
+    "contact": "Kontact"
+  },
+  "webdevelopment": {
+    "learning": "Proces uczenia",
+    "wdevelopment": "Tworzenie stron internetowych",
+    "mba": "Edukacja akademicka",
+    "learntable": {
+       "knowledge": "Wiedza, umiejętności" ,
+       "progress": "Postęp",
+       "btnProgress": "Proces",
+       "btnNext": "Następny"
+    }
+    ,
+    "web": {
+      "angular": "Twórca kątowy",
+      "since": "Ponieważ może",
+      "ad": "Praca z kanciastą 2 od maja 2016 i korzystanie z Firebase dla zaplecza Firebase to usługa BaaS - backend jak usługa.",
+      "ad2": "Firebase to usługa BaaS - backend jak usługa.",
+
+    "ror": "Pracował z ROR w latach 2013 do 2014",
+    "compt": "Kompetencje w rozwoju"
+    }
+,
+    "pos": {
+      "posTitle": "Administracja Biznesowa z Dyplomem Handlu Zagranicznego",
+      "school": "Fundacja Getulio Vargas",
+      "course": "Master Business Administration ( MBA )",
+      "course2pos": "Zarządzanie"
+    },
+    "adm": {
+      "school2": "Umesp - Metodisth University z São Paulo",
+      "course2": "Business Administration with Degree with Foreign trading",
+      "school3": "Sao Jose koła Wyższa"
+    }
+  },
+"rightCard": {
+      "contact": "Skontaktuj się ze mną",
+      "contEmail": "Twój email",
+      "contMessage": "Napisz swoją wiadomość",
+      "contBtn": "Wysłać",
+      "messageOk": "Dziękuję za Twoją wiadomość."
+    },
+
+
+  "Home": {
+    "homeText": "Welcome Home",
+    "secondText": "Change the Language"
+  },
+  "About": {
+    "title": "About page"
+
+
+  }
+
+
+}
+

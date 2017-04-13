@@ -1,0 +1,76 @@
+{
+  "Navbar": {
+    "navTitle": "Title nav",
+    "navSlogan": "Slogan HERE",
+    "navAbout": "About",
+    "Language": "Language",
+    "Languages": {
+      "Portuguese": "Portuguese",
+      "English":    "English",
+      "Espanish":  "Spanish",
+      "Poland": "Poland"
+    }
+  },
+  "message": "Welcome to my Linkedin clone page, the idea is show my portfolio, my skills and more",
+  "leftCard": {
+    "learning": "Learning Process",
+    "angular": "Angular 2 Developer",
+    "wdevelopment": "Web Development",
+    "mba": "Administration degree",
+    "contact": "Contact"
+  },
+  "webdevelopment": {
+    "learning": "Learning Process",
+    "wdevelopment": "Web Development",
+    "mba": "Academic Education",
+    "learntable": {
+       "knowledge": "Knowledge",
+       "progress": "Progress",
+       "btnProgress": "Process",
+       "btnNext": "Next"
+    }
+    ,
+    "web": {
+      "angular": "Angular Developer",
+      "since": "Since May",
+      "ad": "Working with Angular 2 since May 2016 and using Firebase for backend.",
+      "ad2": "Firebase is a BaaS service - backend like a service.",
+
+    "ror": "Worked with  ROR in 2013 to 2014",
+    "compt": "Competences in Development"
+    }
+,
+    "pos": {
+      "posTitle": "Business Administration with Degree with Foreign trading",
+      "school": "Getulio Vargas Foundation ",
+      "course": "Master Business Administration ( MBA )",
+      "course2pos": "Management"
+    },
+    "adm": {
+      "school2": "Umesp - Metodisth University from São Paulo",
+      "course2": "Business Administration with Degree with Foreign trading",
+      "school3": "Sao Jose College - SBC"
+    }
+  },
+"rightCard": {
+      "contact": "Contact Me",
+      "contEmail": "Your email",
+      "contMessage": "Write your message",
+      "contBtn": "Send",
+      "messageOk": "Thank you for your message!"
+    },
+
+
+  "Home": {
+    "homeText": "Welcome Home",
+    "secondText": "Change the Language"
+  },
+  "About": {
+    "title": "About page"
+
+
+  }
+
+
+}
+

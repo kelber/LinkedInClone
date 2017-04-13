@@ -1,0 +1,42 @@
+.transparent{
+  background:rgba(255,255,255,0.5);
+  color: yellow;
+}
+/* vem do navbarC */
+/* nav { */
+/*   position: fixed; */
+/*   z-index: 1; */
+/*   height: 52px; */
+/*   margin: auto; */
+/*   width: 100%; */
+/* } */
+
+
+/* so tirei */
+/* #logo { */
+/*   margin-top: -15px; */
+/* } */
+
+
+.fixed {
+  position: fixed;
+  /* z-index: 0; */
+}
+
+.tableprogress {
+  width: 500px;
+
+}
+
+
+
+/* .footer { */
+/*   margin-top: 155%; */
+/*  */
+/* } */
+
+/* .page-footer { */
+/*   height: -55px; */
+/*  */
+/*  */
+/* } */

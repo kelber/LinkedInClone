@@ -1,0 +1,39 @@
+  <ul class="section table-of-contents fixed  ">
+       <!-- <div class="col s12 m4 l5 "> -->
+         <div class="row">
+             <div class="card blue-grey darken-2">
+               <div class="card-content white-text">
+                 <span class="card-title center">
+                   {{ 'rightCard.contact' | translate }}
+                 </span>
+                 <hr>
+
+<form action="https://formspree.io/kelberstuchi@gmail.com"  method="POST" id="myForm">
+  <input type="text" name="text" required  placeholder="{{ 'rightCard.contMessage' | translate }}">
+  <input type="email" name="_replyto" required  placeholder="{{ 'rightCard.contEmail' | translate }}"  >
+ <!-- <a class="waves&#45;effect waves&#45;light btn white&#45;text" type="submit" value="Send" (click)="sendForm()"> {{ 'rightCard.contBtn' | translate }}</a> -->
+ <input align="center" type="submit" (click)="sendForm()" class="waves-effect waves-light btn btn-largue white-text center" value="{{ 'rightCard.contBtn' | translate }}" >
+ <br>
+ <span align="center" *ngIf="messageA" >{{ 'rightCard.messageOk' | translate }} </span>
+ </form>
+
+
+
+
+                 <!-- close -->
+                 </div>
+
+
+
+           </div>
+         </div>
+         <!-- right div  -->
+       <!-- </div> -->
+     </ul>
+
+
+
+
+
+
+
