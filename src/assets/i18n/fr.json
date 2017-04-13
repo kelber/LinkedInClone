@@ -1,0 +1,74 @@
+{
+  "Navbar": {
+    "navTitle": "Title nav",
+    "navSlogan": "Slogan HERE",
+    "navAbout": "La pagina ",
+    "Language": "Idiomas",
+    "Languages": {
+      "Portuguese": "Portuguese",
+      "English":    "English",
+      "Espanish":  "Spanish"
+    }
+
+  },
+  "message": "Welcome to my Linkedin clone page, the idea is show my portfolio, my skills and more",
+  ,
+  "leftCard": {
+    "learning": "Proceso de aprendizaje",
+    "wdevelopment": "Desarrollo Web",
+    "mba": "Diploma en Negocios",
+    "contact": "Contacto"
+  },
+  "webdevelopment": {
+    "learning": "Proceso de aprendizaje",
+    "wdevelopment": "Desarrollo Web",
+    "mba": "Diplomión académica",
+    "learntable": {
+       "knowledge": "Knowledge",
+       "progress": "Progress",
+       "btnProgress": "Process",
+       "btnNext": "Next"
+    },
+
+    "web": {
+      "angular": "Angular Developer",
+      "since": "Since May",
+      "ad": "Working with Angular 2 since May 2016 and using Firebase for backend.",
+      "ad2": "Firebase is a BaaS service - backend like a service.",
+
+    "ror": "Worked with  ROR in 2013 to 2014",
+    "compt": "Competences in Development"
+    },
+    "pos": {
+      "posTitle": "Business Administration with Degree with Foreign trading",
+      "school": "Getulio Vargas Foundation ",
+      "course": "Master Business Administration ( MBA )",
+      "course2pos": "Management"
+    },
+    "adm": {
+      "school2": "Umesp - Metodisth University from São Paulo",
+      "course2": "Business Administration with Degree with Foreign trading",
+      "school3": "Sao Jose College - SBC"
+    }
+  },
+    "rightCard": {
+      "contact": "Entre em Contato",
+      "contEmail": "Seu email",
+      "contMessage": "Sua Mensagem",
+      "contBtn": "Enviar"
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

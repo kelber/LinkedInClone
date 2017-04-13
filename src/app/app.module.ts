@@ -29,7 +29,7 @@ import { FooterComponent } from './footer/footer.component';
 
 // translation module
   export function createTranslateLoader(http: Http) {
-    return new TranslateStaticLoader(http, '../src/i18n', '.json');
+  return new TranslateStaticLoader(http, '../src/assets/i18n', '.json');
      }
 
 
@@ -53,7 +53,8 @@ import { FooterComponent } from './footer/footer.component';
     MaterializeModule,
     TranslateModule.forRoot({
     provide: TranslateLoader,
-    useFactory: (createTranslateLoader) ,
+    // useFactory: (createTranslateLoader) ,
+    useFactory: (http: Http) => new TranslateStaticLoader(http, '../src/assets/i18n', '.json'),
     deps: [Http]
     }),
     AngularFireModule.initializeApp( firebaseConfig )
