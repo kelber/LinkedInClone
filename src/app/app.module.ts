@@ -7,8 +7,8 @@ import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
-import { TranslateModule , TranslateLoader , TranslateStaticLoader } from 'ng2-translate';
-import {  MyMissingTranslationHandler } from './missingtemplate.component';
+import { TranslateModule , TranslateLoader , TranslateStaticLoader , TranslateService } from 'ng2-translate';
+import { MyMissingTranslationHandler } from './missingtemplate.component';
 
 
 
@@ -29,7 +29,7 @@ import { FooterComponent } from './footer/footer.component';
 
 // translation module
   export function createTranslateLoader(http: Http) {
-  return new TranslateStaticLoader(http, '../src/assets/i18n', '.json');
+    return new TranslateStaticLoader(http, './assets/i18n', '.json');
      }
 
 
@@ -53,14 +53,14 @@ import { FooterComponent } from './footer/footer.component';
     MaterializeModule,
     TranslateModule.forRoot({
     provide: TranslateLoader,
-    // useFactory: (createTranslateLoader) ,
-    useFactory: (http: Http) => new TranslateStaticLoader(http, '../src/assets/i18n', '.json'),
+    useFactory: (createTranslateLoader) ,
+    // or useFactory: (http: Http) => new TranslateStaticLoader(http, '../src/assets/i18n', '.json'),
     deps: [Http]
     }),
     AngularFireModule.initializeApp( firebaseConfig )
 
   ],
-  providers: [],
+  providers: [ TranslateService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
