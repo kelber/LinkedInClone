@@ -24,11 +24,25 @@
 
   <li class="divider"></li>
 </ul>
-  <ul class="side-nav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-  </ul>
+  <ul class="side-nav " id="mobile-demo">
+   <li>
+    <a class="blue-grey-text text-darken-2" (click)="changeLanguage('en')">{{ 'Navbar.Languages.English' | translate }} </a>
 
+  </li>
+    <li>
+      <a class="blue-grey-text text-darken-2"  (click)="changeLanguage('pt')">{{ 'Navbar.Languages.Portuguese'  | translate }}  </a>
+    </li>
+    <li>
+      <a class="blue-grey-text text-darken-2"  (click)="changeLanguage('es')">{{ 'Navbar.Languages.Espanish' | translate }} </a>
+
+    </li>
+ <li>
+   <a class="blue-grey-text text-darken-2"  (click)="changeLanguage('pol')">{{ 'Navbar.Languages.Poland' | translate }}</a>
+   <br>
+ </li>
+
+
+  </ul>
 
 
 
