@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule  , Http } from '@angular/http';
 
+
+// import { MessageModule } from 'my_lib';
 import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
@@ -14,7 +16,7 @@ import { MyMissingTranslationHandler } from './missingtemplate.component';
 
 // firebase
   import { AngularFireModule } from 'angularfire2';
-  import { firebaseConfig } from '../environments/firebaseconfig';
+  // import { firebaseConfig } from '../environments/firebaseconfig';
   declare var firebase: any;
 
 import { HomeComponent } from './home/home.component';
@@ -31,7 +33,12 @@ import { FooterComponent } from './footer/footer.component';
   export function createTranslateLoader(http: Http) {
     return new TranslateStaticLoader(http, './assets/i18n', '.json');
      }
+     
 
+export const firebaseConfig = {
+  
+
+};
 
 @NgModule({
   declarations: [
